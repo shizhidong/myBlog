@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="E:\发布" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="配置文件1" publishMethod="FileSystem" replaceMatchingFiles="False" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="Default.aspx" publishTime="10/17/2016 10:58:24" />
+    <file relUrl="images/left.png" publishTime="08/09/2016 17:33:40" />
+    <file relUrl="images/tj.png" publishTime="08/09/2016 17:33:40" />
+    <file relUrl="css/photo.css" publishTime="08/09/2016 17:33:40" />
+    <file relUrl="Resume.aspx" publishTime="10/14/2016 10:43:44" />
+    <file relUrl="js/jquery1.42.min.js" publishTime="08/09/2016 17:33:40" />
+    <file relUrl="js/common.js" publishTime="08/09/2016 17:33:40" />
+    <file relUrl="Web.config" publishTime="01/28/2017 07:51:43" />
+    <file relUrl="images/photo/6.jpg" publishTime="08/09/2016 17:33:40" />
+    <file relUrl="images/weihu.png" publishTime="09/08/2016 17:56:26" />
+    <file relUrl="css/LoginStyle.css" publishTime="08/23/2016 11:03:17" />
+    <file relUrl="images/photo/7.jpg" publishTime="08/09/2016 17:33:40" />
+    <file relUrl="More.aspx" publishTime="08/15/2016 11:17:01" />
+    <file relUrl="images/sj.jpg" publishTime="08/09/2016 17:33:40" />
+    <file relUrl="bin/MyBlogDAL.dll" publishTime="01/28/2017 07:50:38" />
+    <file relUrl="WebForm2.aspx" publishTime="09/20/2016 19:16:32" />
+    <file relUrl="js/jquery.transform-0.9.1.min.js" publishTime="08/09/2016 17:33:40" />
+    <file relUrl="js/jquery.SuperSlide.2.1.1.js" publishTime="08/09/2016 17:33:40" />
+    <file relUrl="images/photo/4.jpg" publishTime="08/09/2016 17:33:40" />
+    <file relUrl="images/qq_bg.png" publishTime="08/09/2016 17:33:40" />
+    <file relUrl="images/Error.png" publishTime="09/08/2016 18:08:20" />
+    <file relUrl="images/photo/1.jpg" publishTime="08/09/2016 17:33:40" />
+    <file relUrl="images/download.jpg" publishTime="08/11/2016 11:38:01" />
+    <file relUrl="bin/MyBlogWeb.pdb" publishTime="01/28/2017 07:50:39" />
+    <file relUrl="css/index.css" publishTime="01/07/2017 11:10:35" />
+    <file relUrl="images/pic.jpg" publishTime="08/11/2016 11:38:30" />
+    <file relUrl="images/photo/8.jpg" publishTime="08/09/2016 17:33:40" />
+    <file relUrl="images/bg.jpg" publishTime="09/21/2016 15:25:55" />
+    <file relUrl="WebConfigEncryptDecrypt .aspx" publishTime="09/22/2016 17:42:45" />
+    <file relUrl="admin/Login.aspx" publishTime="10/25/2016 11:20:53" />
+    <file relUrl="guestbook.aspx" publishTime="09/26/2016 10:22:20" />
+    <file relUrl="images/s2.jpg" publishTime="08/09/2016 17:33:40" />
+    <file relUrl="images/photo/9.jpg" publishTime="08/09/2016 17:33:40" />
+    <file relUrl="images/s.jpg" publishTime="08/09/2016 17:33:40" />
+    <file relUrl="bin/MyBlogModal.pdb" publishTime="01/28/2017 07:50:38" />
+    <file relUrl="images/list.png" publishTime="08/09/2016 17:33:40" />
+    <file relUrl="js/html5.js" publishTime="08/09/2016 17:33:40" />
+    <file relUrl="DetailRe.aspx" publishTime="08/15/2016 11:16:54" />
+    <file relUrl="bin/MyBlogDAL.pdb" publishTime="01/28/2017 07:50:38" />
+    <file relUrl="images/line_bg.jpg" publishTime="08/09/2016 17:33:40" />
+    <file relUrl="About.aspx" publishTime="09/05/2016 17:18:16" />
+    <file relUrl="images/my_1.jpg" publishTime="09/05/2016 17:24:57" />
+    <file relUrl="images/tx.jpg" publishTime="08/09/2016 17:33:40" />
+    <file relUrl="css/animate.css" publishTime="08/09/2016 17:33:40" />
+    <file relUrl="bin/MyBlogModal.dll" publishTime="01/28/2017 07:50:38" />
+    <file relUrl="reg/reg.aspx" publishTime="09/01/2016 11:47:15" />
+    <file relUrl="Say.aspx" publishTime="10/14/2016 10:44:00" />
+    <file relUrl="images/s1.jpg" publishTime="08/09/2016 17:33:40" />
+    <file relUrl="js/waterfall.js" publishTime="08/09/2016 17:33:40" />
+    <file relUrl="bin/MyBlogWeb.dll" publishTime="01/28/2017 07:50:39" />
+    <file relUrl="images/s3.jpg" publishTime="08/09/2016 17:33:40" />
+    <file relUrl="images/my.jpg" publishTime="08/09/2016 17:33:40" />
+    <file relUrl="images/r_line.jpg" publishTime="08/09/2016 17:33:40" />
+    <file relUrl="css/style.css" publishTime="09/21/2016 11:55:21" />
+    <file relUrl="css/lrtk.css" publishTime="08/09/2016 17:33:40" />
+    <file relUrl="admin/default.aspx" publishTime="10/14/2016 10:40:57" />
+    <file relUrl="BlogRight.Master" publishTime="01/28/2017 07:47:39" />
+    <file relUrl="images/photo/2.jpg" publishTime="08/09/2016 17:33:40" />
+    <file relUrl="RiJi.aspx" publishTime="09/23/2016 09:48:31" />
+    <file relUrl="images/photo/3.jpg" publishTime="08/09/2016 17:33:40" />
+    <file relUrl="404.aspx" publishTime="09/08/2016 17:57:20" />
+    <file relUrl="Detail.aspx" publishTime="08/15/2016 11:16:47" />
+    <file relUrl="images/photo/5.jpg" publishTime="08/09/2016 17:33:40" />
+    <file relUrl="images/photo/10.jpg" publishTime="08/09/2016 17:33:40" />
+    <file relUrl="images/weizi.png" publishTime="08/09/2016 17:33:40" />
+    <file relUrl="Global.asax" publishTime="08/23/2016 09:59:57" />
+    <file relUrl="images/bgError.jpg" publishTime="09/08/2016 17:56:50" />
+  </publishProfile>
+</publishData>

@@ -1,0 +1,4 @@
+D:\Myblog\MyBlogModal\bin\Debug\MyBlogModal.dll
+D:\Myblog\MyBlogModal\bin\Debug\MyBlogModal.pdb
+D:\Myblog\MyBlogModal\obj\Debug\MyBlogModal.dll
+D:\Myblog\MyBlogModal\obj\Debug\MyBlogModal.pdb

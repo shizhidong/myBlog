@@ -1,0 +1,145 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="BlogRight.master.cs"
+    Inherits="MyBlogWeb.BlogRight" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title id="titleNav"></title>
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script type="text/javascript" src="js/jquery1.42.min.js"></script>
+    <script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
+    <!--[if lt IE 9]>
+<script src="js/html5.js"></script>
+<![endif]-->
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <!--header start-->
+        <div id="header">
+            <h1>
+                个人博客</h1>
+            <p>
+                <asp:Label ID="lblMy" runat="server" Text=""></asp:Label></p>
+        </div>
+        <!--header end-->
+        <!--nav-->
+        <div id="nav">
+            <ul>
+                <li id="nav1"><a href="default.aspx">首页</a></li>
+                <li id="nav2"><a href="about.aspx">关于我</a></li>
+                <li id="nav3"><a href="Say.aspx">碎言碎语</a></li>
+               <li id="nav4"><a href="RiJi.aspx">个人日记</a></li>
+          <!--<li id="nav5"><a href="javascript:void(0)">相册展示</a></li>
+         <li id="nav6"><a href="javascript:void(0)">学无止境</a></li>
+         <li><a href="Resume.aspx">个人简历</a></li>-->
+                <div class="clear">
+                </div>
+            </ul>
+        </div>
+        <!--nav end-->
+        <!--content start-->
+        <div id="content">
+            <!--left-->
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            <!--left end-->
+            <!--right-->
+            <div class="right" id="c_right">
+                <div class="s_about">
+                    <h2>
+                        关于博主</h2>
+                    <img src="images/my.jpg" width="230" height="230" alt="博主" />
+                    <p style="margin-top: 10px;">
+                        <span class="c_title">博主：</span><asp:Label ID="lblMyName" runat="server" Text=""></asp:Label></p>
+                    <p>
+                        <span class="c_title">职业：</span><asp:Label ID="lblOccupation" runat="server" Text=""></asp:Label></p>
+                    <p>
+                        <span class="c_title">简介：</span><asp:Label ID="lblIntroduction" runat="server" Text="Label"></asp:Label></p>
+                    <p>
+                        <a href="http://wpa.qq.com/msgrd?v=3&uin=59317748&site=qq&menu=yes" title="联系博主"><span class="left b_1"></span></a>
+                        <a href="admin/Login.aspx" target="_blank" class="LoginBtn">后台登陆</a>
+                        <!--<a href="#" title="加入QQ群，一起学习！">
+                            <span class="left b_2"></span></a>-->
+                    </p>
+                   
+                </div>
+                <!--栏目分类-->
+                <div class="lanmubox">
+                    <div class="hd">
+                        <ul>
+                            <li class="hd_3">栏目分类</li><li>精心推荐</li><li>最新文章</li></ul>
+                    </div>
+                    <div class="bd">
+                        <ul>
+                            <asp:Repeater ID="RepJs" runat="server">
+                                <ItemTemplate>
+                                    <li><a href='More.aspx?CaName=<%#Eval("caName") %>' title="js">js</a></li>
+                                </ItemTemplate>
+                            </asp:Repeater>
+                            <asp:Repeater ID="RepCss" runat="server">
+                                <ItemTemplate>
+                                    <li><a href='More.aspx?CaName=<%#Eval("caName") %>' title="css">css</a></li>
+                                </ItemTemplate>
+                            </asp:Repeater>
+                            <asp:Repeater ID="RepHtml" runat="server">
+                                <ItemTemplate>
+                                    <li><a href='More.aspx?CaName=<%#Eval("caName") %>' title="html">html</a></li>
+                                </ItemTemplate>
+                            </asp:Repeater>
+                            <asp:Repeater ID="RepAsp" runat="server">
+                                <ItemTemplate>
+                                    <li><a href='More.aspx?CaName=<%#Eval("caName") %>' title="asp">asp</a></li>
+                                </ItemTemplate>
+                            </asp:Repeater>
+                            <asp:Repeater ID="RepOne" runat="server">
+                                <ItemTemplate>
+                                    <li><a href='More.aspx?CaName=<%#Eval("caName") %>' title="其它">其它</a></li>
+                                </ItemTemplate>
+                            </asp:Repeater>
+                        </ul>
+                        <ul>
+                            <asp:Repeater ID="RepNewsTop" runat="server">
+                                <ItemTemplate>
+                                    <li><a href='DetailRe.aspx?CaIdRe=<%#Eval("id") %>' title='<%#Eval("title") %>'>
+                                        <%#Eval("title") %></a></li>
+                                </ItemTemplate>
+                            </asp:Repeater>
+                        </ul>
+                        <ul>
+                            <asp:Repeater ID="RepNewsCont" runat="server">
+                                <ItemTemplate>
+                                    <li><a href='Detail.aspx?CaId=<%#Eval("id") %>' title='<%#Eval("title") %>'>
+                                        <%# StringTruncat(Eval("title").ToString(), 18, "...")%></a></li>
+                                </ItemTemplate>
+                            </asp:Repeater>
+                        </ul>
+                    </div>
+                </div>
+                <!--end-->
+                <div class="link">
+                    <h2>
+                        友情链接</h2>
+                    <p>
+                        <a href="Default.aspx">个人博客</a></p>
+                </div>
+            </div>
+            <!--right end-->
+            <div class="clear">
+            </div>
+        </div>
+        <!--content end-->
+        <!--footer start-->
+        <div id="footer">
+            <p>
+                向前看少年</p>
+        </div>
+        <!--footer end-->
+        <script type="text/javascript">            jQuery(".lanmubox").slide({ easing: "easeOutBounce", delayTime: 400 });</script>
+    </div>
+    </form>
+</body>
+</html>

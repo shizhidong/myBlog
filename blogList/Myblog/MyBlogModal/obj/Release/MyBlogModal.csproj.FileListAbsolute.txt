@@ -1,0 +1,14 @@
+D:\Myblog\MyBlogModal\bin\Release\MyBlogModal.dll
+D:\Myblog\MyBlogModal\bin\Release\MyBlogModal.pdb
+D:\Myblog\MyBlogModal\obj\Release\MyBlogModal.dll
+D:\Myblog\MyBlogModal\obj\Release\MyBlogModal.pdb
+D:\Myblog\MyBlogModal\obj\Release\MyBlogModal.csprojResolveAssemblyReference.cache
+D:\blogList\Myblog\MyBlogModal\bin\Release\MyBlogModal.dll
+D:\blogList\Myblog\MyBlogModal\bin\Release\MyBlogModal.pdb
+D:\blogList\Myblog\MyBlogModal\obj\Release\MyBlogModal.dll
+D:\blogList\Myblog\MyBlogModal\obj\Release\MyBlogModal.pdb
+E:\我的个人网站\blogList\Myblog\MyBlogModal\bin\Release\MyBlogModal.dll
+E:\我的个人网站\blogList\Myblog\MyBlogModal\bin\Release\MyBlogModal.pdb
+E:\我的个人网站\blogList\Myblog\MyBlogModal\obj\Release\ResolveAssemblyReference.cache
+E:\我的个人网站\blogList\Myblog\MyBlogModal\obj\Release\MyBlogModal.dll
+E:\我的个人网站\blogList\Myblog\MyBlogModal\obj\Release\MyBlogModal.pdb
